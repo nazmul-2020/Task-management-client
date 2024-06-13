@@ -1,0 +1,19 @@
+.banner {
+    background-image: url(../../assets/Banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    height: 100vh;
+    background-attachment:fixed;
+}
+
+.banner .overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(35, 32, 32, 0.506);
+}
+
+.text{
+    color: rgb(3, 255, 238)
+}
